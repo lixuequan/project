@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    }
+
+.disp_new{
+    margin:0 auto;
+    width:800px;
+    height:700px;
+    background-color:#66dcff;
+    text-align: center;
+    padding-top: 50px;
+    }
+
+.disp_new h1{
+    filter:glow(color=red);
+    
+    }
+.disp_new img{
+    
+    }

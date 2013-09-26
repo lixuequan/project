@@ -1,0 +1,54 @@
+
+    
+#main {
+    
+    width:70%;
+    height:100%;
+    margin:0 auto;
+    background-color:#66DEFF;
+   
+}
+
+#nav {
+    width:70%;
+    height:140px;
+    margin:0 auto;
+    background-color:#1C2C4B;
+    background-image:url(../../static/images/logo.png);
+    background-repeat:no-repeat;
+}
+#nav ul {
+    position:relative;
+	text-align:center;
+	top:30px;	
+}
+.wel{
+	font-size:2em;
+	position:relative;
+	text-align:center;
+	padding-top:50px;
+}
+#nav li{
+	list-style-type:none;
+	font-size:3em;
+	height:50px;
+}
+#footer{
+    width:70%;
+    height:80px;
+    background-color:#66dcff;
+    clear:both;
+    margin:1px  auto;   
+}
+#footer ul{
+	text-decoration:none;
+	list-style-type:none;
+}
+#footer li{
+	float:left;
+	width:100px;
+	text-align:right;
+}
+#footer p{
+	text-align:center;
+}

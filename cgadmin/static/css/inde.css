@@ -1,0 +1,37 @@
+*{
+margin:0;
+}
+.reg{
+    width:800px;
+    height:700px;
+    background-color:#66dcff;
+    margin:0 auto;
+    padding-top:30px;
+    font-size:16px;
+    }
+
+.userinfo {
+    width:180px;
+    height:240px;
+    border:1px black solid;
+    float:left;
+    padding-top:10px;
+    margin-left:50px;
+    text-align:center;
+    font-size:16px;
+    
+}
+
+.userinf_font span{
+    color:white;
+    font-size:16px;
+}
+
+.userinfo img{ 
+    width:150px;
+}
+
+h4{
+    padding-left:40px;
+}
+

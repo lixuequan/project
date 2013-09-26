@@ -1,0 +1,9 @@
+<div class="content">
+<h1>{{new.title}}</h1>
+<ul>
+{% for new in new_list %}
+    <li><a href="/show_plist/?nid={{new.id}}">{{new.title|truncatechars:10}}</a></li>
+{% endfor %}
+</ul>
+<br />
+</div>

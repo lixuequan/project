@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+.login{
+    margin:0 auto;
+    width:800px;
+    height:700px;
+    background-color:#66dcff;
+    line-height:40px;
+    text-align:center;
+    padding-top:100px;
+  
+    }
+.login input{
+    background-color:#66dcff;
+    }
+
+
+.userinfo {
+    width:180px;
+    height:240px;
+    border:1px black solid;
+    float:left;
+    padding-top:10px;
+    margin-left:50px;
+    text-align:center;
+    
+}
+
+.userinfo span{
+    color:white;
+    text-align:left;
+
+}
+
+.login a{
+    text-decoration:none;
+    color:black;
+
+}
+.login a:hover{
+    color:white;
+    text-decoration:underline;
+    
+}
+.reg{
+    padding-left:150px;
+}
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{{new.title}}</title>
+<link type="text/css" rel="stylesheet" href="../static/css/plist.css">
+<script>
+
+</script>
+</head>
+
+<body>
+<div class="Ttitle">
+    <h1>部门管理</h1>
+    <div class="nav">
+        <ul>
+        <li><a href="/plist/">回到首页</a></li>
+        <li><a href="/classify_admin/">分类管理</a></li>
+	    <li><a href="/team_admin/">部门管理</a></li>
+	    <li><a href="/announ_admin/">公告管理</a></li>
+	    <li><a href="/project_admin/">项目管理</a></li>
+	    <li><a href="/view_file/">查看素材</a></li>
+	    <li><a href="use_help">使用帮助</a></li>
+ 	</ul>
+    </div>
+
+<div class="content">
+
+
+<blockquote>
+    {% for team in team_list %}
+        <h4>{{ team.name }}</h4></br>
+        <h5>部门成员:</h5>
+        <blockquote>
+            {% for tmember in team.member.all %}
+                <h5><li><a href="">{{ tmember }}</a></li></h5></br>
+            {% endfor %}
+        </blockquote>
+    {% endfor %}
+</blockquote>
+</div>
+{% include "footer.html" %}
+</div>
+</body>
+</html>

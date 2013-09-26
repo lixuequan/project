@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    }
+
+.new{
+    margin:0 auto;
+    width:900px;
+    height:600px;
+    background-color:#66dcff;
+    }
+
+.new ul {
+    padding-top:20px;
+    padding-left:20px;
+    }
+
+
+
+.new ul li{
+    line-height:40px;
+    list-style-type:none;
+    }
+
+.new li a{
+    line-height:20px;
+    color:blue;
+    text-decoration:none;
+    }
+
+.new li a:hover{
+    text-decoration:underline;
+    color:white;
+    
+    }
